@@ -1,0 +1,97 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+body{
+    height: 665px;
+    background-image: url("../PUERTO CAÑON/imagenes/Fondo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.nav-mein{
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 90px;
+    padding: 20px 0;
+}
+
+.nav-mein ul {
+    display: flex;
+}
+
+.nav-mein ul li{
+    padding:50px;
+}
+
+img{
+    float: right;
+    height: 120px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+h1{
+    width: 50%;
+    height: 200px;
+}
+
+.showcase{
+    width: 50%;
+    height: 200px;
+    background: url(./imagenes/imagen2.jpg) no-repeat center center/cover;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    
+}
+
+
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
